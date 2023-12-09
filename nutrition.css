@@ -29,7 +29,6 @@
  .flexbody{
   display: flex;
   flex-direction: column;
-  height: 2900px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: Audiowide;
@@ -95,7 +94,7 @@
   font-family: Audiowide;
   font-size: 20px;
   color: rgb(193, 240, 230);
-  background-color: rgb(38, 90, 81);
+  background-color: rgb(21, 43, 76);
  }
  #result{
   display: none;
@@ -145,7 +144,7 @@
 }
 
 .labelexpanded input:checked + .radio-btns {
-      background-color: rgb(181, 244, 231);
+      background-color: rgb(62, 228, 254);
       color: #1e1d1d;
 }
 
