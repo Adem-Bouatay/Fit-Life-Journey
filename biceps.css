@@ -1,0 +1,223 @@
+.exbicepsdesc{
+    
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    right: 30px;
+    height: 100px;
+    color: white;
+}
+.exbiceps1{
+    
+    position: absolute;
+    top: 350px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex1b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ex1bdesc{
+    position: absolute;
+    color: white;
+    left: 30px;
+    font-size: 30px;
+    font-family:Audiowide ;
+}
+.ex1bpar{
+    position: absolute;
+    top: 350px;
+    font-size: 20px;
+    color: white;
+}
+.ex2b{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    right: 180px;
+    top: 20px;
+    border-radius: 30px;
+}
+.ex2bdesc{
+    position: absolute;
+    right: 180px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex2bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 00px;
+    color: white;
+}
+.exbiceps2{
+    
+    position: absolute;
+    top: 950px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex4b{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    right: 180px;
+    top: 20px;
+    border-radius: 30px;
+}
+.ex4bdesc{
+    position: absolute;
+    top: 270px;
+    right: 200px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+
+}
+.ex4bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 10px;
+    color: white;
+}
+.ex3b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.ex3bdesc{
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex3bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.exbiceps3{
+    
+    position: absolute;
+    top: 1500px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex5b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.ex5bdesc{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex5bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.ex6b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+.ex6bdesc{
+    position: absolute;
+    top: 270px;
+    right: 90px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex6bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 10px;
+    color: white;
+}
+.exbiceps4{
+    
+    position: absolute;
+    top: 2100px;
+    right: 30px;
+    left: 30px;
+    height:500px 
+}
+.ex7b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.ex7bdesc{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex7bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.ex8b{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+.ex8bdesc{
+    position: absolute;
+    top: 270px;
+    right: 60px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex8bpar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 0px;
+    color: white;
+}

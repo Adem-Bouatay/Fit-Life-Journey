@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 3000px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(234, 234, 234);
+  }
+
+  .navbar a{
+     font-family: Audiowide;
+     text-decoration: none;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bolder;
+
+  }
+  
+  .navlink a:hover {
+    text-align: center;
+    background-color: #fffffff3;
+  }
+  .titleheader{
+    font-family:Audiowide; 
+  }
+  .titleheader{
+    font-family:Audiowide; 
+  }
+  footer{
+    position: absolute;
+    top: 3000px;
+    left: 0;
+    right: 0;
+ }
+ .titlefooter{
+    font-family:Audiowide; 
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 55px ;
+    font-style: italic;
+}
+.objectif{
+    
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
+    height: 550px;
+    
+}
+.objectif1{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  border-radius: 60px;
+  height: 400px;
+}
+.objectif1bu{
+  position: absolute;
+  top: 480px;
+  left: 280px;
+  border-radius: 100px;
+  cursor:pointer;
+  color: white;
+  height: 50px;
+  font-family:Audiowide ;
+  background-color: black;
+ }
+ .objectif1bu:hover{
+  background-color: blue;
+}
+.objectif1bu:active{
+  opacity:0.4;
+}
+
+  
+
+.objectif2{
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  border-radius: 60px;
+
+}
+.objectif2bu{
+  position: absolute;
+  top: 480px;
+  left: 1100px;
+  border-radius: 100px;
+  height: 50px;
+  cursor: pointer;
+  font-family:Audiowide ;
+  background-color: black;
+  color: white;
+}
+.objectif2bu:hover{
+  background-color: blue;
+}
+.objectif2bu:active{
+  opacity: 0.4;
+}
+.start{
+  
+  position: absolute;
+  top: 800px;
+  right: 0;
+  left: 0;
+  height: 700px;
+}
+.startphoto{
+height: 700px;
+position: absolute;
+ left: 50px;
+ width: 1400px;
+ top: 120px;
+ border-radius: 25px;
+}
+.startpar{
+  font-family:Audiowide ;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 60px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  font-size: 50px;
+}
+
+
+
+
+ 

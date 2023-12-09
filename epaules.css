@@ -1,0 +1,225 @@
+
+
+.exepaulesdesc{
+    
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    right: 30px;
+    height: 100px;
+    color: white;
+}
+.exepaules1{
+    
+    position: absolute;
+    top: 350px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex1p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ex1pdesc{
+    position: absolute;
+    color: white;
+    left: 30px;
+    font-size: 30px;
+    font-family:Audiowide ;
+}
+.ex1ppar{
+    position: absolute;
+    top: 350px;
+    font-size: 20px;
+    color: white;
+}
+.ex2p{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    right: 180px;
+    top: 20px;
+    border-radius: 30px;
+}
+.ex2pdesc{
+    position: absolute;
+    right: 180px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex2ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 100px;
+    color: white;
+}
+.exepaules2{
+    
+    position: absolute;
+    top: 950px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex4p{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    right: 180px;
+    top: 20px;
+    border-radius: 30px;
+}
+.ex4pdesc{
+    position: absolute;
+    top: 270px;
+    right: 300px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+
+}
+.ex4ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 10px;
+    color: white;
+}
+.ex3p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.ex3pdesc{
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex3ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.exepaules3{
+    
+    position: absolute;
+    top: 1500px;
+    right: 30px;
+    left: 30px;
+    height:500px ;
+}
+.ex5p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.ex5pdesc{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex5ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.ex6p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+.ex6pdesc{
+    position: absolute;
+    top: 270px;
+    right: 90px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex6ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 10px;
+    color: white;
+}
+.exepaules4{
+    
+    position: absolute;
+    top: 2100px;
+    right: 30px;
+    left: 30px;
+    height:500px 
+}
+.ex7p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.ex7pdesc{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex7ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    left: 10px;
+    color: white;
+}
+.ex8p{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+.ex8pdesc{
+    position: absolute;
+    top: 270px;
+    right: 60px;
+    font-family:Audiowide ;
+    color: white;
+    font-size: 30px;
+}
+.ex8ppar{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    right: 0px;
+    color: white;
+}

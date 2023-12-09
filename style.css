@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar a{
+   font-family: Audiowide;
+   text-decoration: none;
+   text-align: center;
+   font-size: 21px;
+   font-weight: bolder;
+
+}
+
+.navlink a:hover {
+  text-align: center;
+  background-color: #e4e4e43d;
+}
+.titleheader{
+  font-family:Audiowide; 
+}
+footer{
+padding: 30px;
+}
+.flexbody{
+display: flex;
+flex-direction: column;
+height: 600px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Audiowide;
+text-align: center;
+text-justify: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.311);
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.quote{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.quote h2{
+  margin-bottom: 25px;
+}
+.START{
+  margin-top: 40px;
+  color:black;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: rgb(220, 220, 220);
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 15px;
+}

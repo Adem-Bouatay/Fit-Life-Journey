@@ -1,0 +1,198 @@
+  *{
+    box-sizing: border-box;
+  }
+  .navbar a{
+     font-family: Audiowide;
+     text-decoration: none;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bolder;
+
+  }
+  
+  .navlink a:hover {
+    text-align: center;
+    background-color: #e4e4e43d;
+  }
+  .titleheader{
+    font-family:Audiowide; 
+  }
+ footer{
+  padding: 30px;
+ }
+ .titlefooter{
+    margin: auto;
+    font-family:Audiowide; 
+
+    font-style: italic;   
+ }
+ .flexbody{
+  display: flex;
+  flex-direction: column;
+  height: 2900px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Audiowide;
+  text-align: center;
+  text-justify: center;
+ }
+ .flexbody form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+  font-size: x-large;
+  font-weight: bold;
+ }
+ .flexbody form table{
+
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+ }
+ .formlabel{
+  padding-left: 90px;
+
+ }
+ .flexbody form .form-input{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 20px;
+ }
+
+ .ilabel{
+  margin-left: 30px;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #a8a8a8;
+ }
+ .flexbody form input[type="number"]{
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+ }
+ .calc{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .calc input[type="button"]{
+  border: 0px solid;
+  border-radius: 7px;
+  height: 40px;
+  width: 150px;
+  font-family: Audiowide;
+  font-size: 20px;
+  color: rgb(193, 240, 230);
+  background-color: rgb(38, 90, 81);
+ }
+ #result{
+  display: none;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+  height: 150px;
+}
+#result button {
+  margin-top: 10px;
+}
+
+#table2{
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#table2 td label{
+  margin-left: 10%;
+  margin-right: 10%;
+} 
+#table2 td input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 40%;
+  width: 30%;
+}
+#table2 td button{
+  margin-left: 40%;
+}
+.cuisTd{
+  margin-left: 10%;
+}
+.cuisdiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.labelexpanded {
+  font-size: 12px;
+}
+
+.labelexpanded > input {
+  display:none;
+}
+
+.labelexpanded input:checked + .radio-btns {
+      background-color: rgb(181, 244, 231);
+      color: #1e1d1d;
+}
+
+.radio-btns {
+  width: 120px;
+  height: 120px;
+  display: flexbox;
+  text-align:center;
+  border-radius: 15px;
+  box-shadow: 0 1px #c3c3c3;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.radio-btns > img {
+  width: 80px;
+  height: 80px;
+}
+#generateMeal{
+
+  display: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+#generateMeal li{
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  height: 25%;
+}
+#generateMeal li h3{
+  font-size: 23px;
+}
+#generateMeal li figure{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#generateMeal li img{
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+ 

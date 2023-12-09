@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Nutrition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+<body class="body" data-bs-theme="light">
+    <header>
+      <nav class="navbar navbar-expand-lg justify-content-center bg-dark shadow-lg">
+            <div class="row align-items-center justify-content-around p-2" style="width: 100%; background-color: rgb(255, 255, 255);">
+                <div class="col-3">
+                    <a href="" class="nav-link mx-2 ps-4 text-center text-dark text-start" style="font-weight: bolder;">Fit Life Journey</a>
+                </div>
+                <div class="col-1">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col-5 collapse navbar-collapse" id="navbarNav">
+                    <div class="d-flex justify-content-center">
+                        <ul class="nav nav-pills d-flex">
+                            <li class="nav-item"><a href="index.html" class="nav-link text-black mx-2">HOME</a></li>
+                            <li class="nav-item"><a href="workout.html" class="nav-link text-black mx-2">WORKOUT</a></li>
+                            <li class="nav-item"><a href="nutrition.html" class="nav-link text-black mx-2">NUTRITION</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+      </nav>
+    </header>
+    <div class="flexbody pt-4">
+      <h1>Calorie Calculator</h1>
+      <center><p style="width: 80%;">Use the calorie calculator to estimate the number of daily calories 
+        your body needs to maintain your current weight.
+      </p></center>
+      <form class="form" id="calorieForm">
+          <table class="shadow-lg rounded-4">
+              <tr>
+                  <td class="formlabel">
+                      <label for="age">Age:</label>
+                  </td>
+                  <td colspan="2">
+                      <div class="form-input">
+                          <input type="number" id="age" name="fage">
+                          <div class="ilabel">years</div>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="formlabel">
+                      <label for="height">Height:</label>
+                  </td>
+                  <td colspan="2">
+                      <div class="form-input">
+                          <input type="number" id="height" name="fheight">
+                          <div class="ilabel">cm</div>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="formlabel">
+                      <label for="weight">Weight:</label>
+                  </td>
+                  <td colspan="2">
+                      <div class="form-input">
+                          <input type="number" id="weight" name="fweight">
+                          <div class="ilabel">kg</div>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="formlabel">
+                      <label for="gender">Gender:</label>
+                  </td>
+                  <td>
+                    <input class="form-check-input" style="height: 20px;width: 20px;" type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label" style="font-size: large;font-weight: normal;" for="male">male</label>
+                  </td>
+                  <td>
+                    <input class="form-check-input" style="height: 20px;width: 20px;" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" style="font-size: large;font-weight: normal;" for="female">female</label>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="3">
+                      <div class="calc">
+                          <input type="button" value="Calculate" onclick="calculateCalories()">
+                      </div>
+                  </td>
+              </tr>
+          </table>
+      </form>
+
+      <div id="result">
+        <h2>Estimated Daily Caloric Needs:</h2>
+        <p id="caloriesResult"></p>
+        <button onclick="closeResult()">Close</button>
+      </div>
+      <center><hr width="90%"></center>
+      <h1>Diet Creator</h1>
+      <center><p style="width: 80%;">create your personal meal 
+         plans based on your food 
+         preferences, budget, and 
+         schedule. Reach your diet and 
+         nutritional goals with our calorie 
+         calculator, weekly meal plans, 
+         grocery lists and more. Create 
+         your meal plan right here in seconds.
+      </p></center>
+      <form>
+          <table class="shadow-lg rounded-4" id="table2">
+            <tr>
+              <td>
+                <label>Cuisine:</label>
+              </td>
+            </tr>
+            <tr>  
+              <td class="cuisTd" colspan="4">
+                <div class="cuisdiv">
+                <div class="cuisButt">
+                  <label class="labelexpanded"> 
+                    <input type="radio" name="cuisine" value="Asian"> 
+                      <div class="radio-btns"> 
+                        <img src="continents/as.png"/> 
+                        <p>Asian</p> 
+                      </div>
+                    </input>
+                  </label>
+                </div>
+                <div class="cuisButt">
+                  <label class="labelexpanded"> 
+                    <input type="radio" name="cuisine" value="European"> 
+                      <div class="radio-btns"> 
+                        <img src="continents/eu.png"/> 
+                        <p>European</p> 
+                      </div>
+                    </input>
+                  </label>
+                </div>
+                <div class="cuisButt">
+                  <label class="labelexpanded"> 
+                    <input type="radio" name="cuisine" value="African"> 
+                      <div class="radio-btns"> 
+                        <img src="continents/na.png"/> 
+                        <p>African</p> 
+                      </div>
+                    </input>
+                  </label>
+                </div>
+                <div class="cuisButt">
+                  <label class="labelexpanded"> 
+                    <input type="radio" name="cuisine" value="Middle Eastern"> 
+                      <div class="radio-btns"> 
+                        <img src="continents/me.png"/> 
+                        <p>Middle Eastern</p> 
+                      </div>
+                    </input>
+                  </label>
+                </div>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="calor" for="calories">calories:</label>
+              </td>
+            </tr>  
+            <tr>
+              <td>
+                <input type="number" id="calories">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="meals" for="meals">Number of meals:</label>
+              </td>
+            </tr>
+            <tr>
+              <td>  
+                <input type="number" id="meals" aria-disabled="true" value="3">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <input type="button" value="Generate" onclick="generateMeal()">
+                </div>
+              </td>
+            </tr>
+          </table>    
+      </form>
+
+      <div id="generateMeal">
+        <ul>
+          <h1>Your Plan for TODAY:</h1>
+          <div id="caloriesdiv">
+          </div>
+          <li class="shadow-lg" id="breakfast">
+              <h3>Breakfast:</h3>
+              <figure>
+                <img src="C:\Users\adem_\OneDrive\Images\luffy_gear_5_by_ranshiiki_dg4uvgs-414w-2x.jpg" id="breakfast image" width="125px" height="125px">
+                <figcaption id="breakfast cap">test</figcaption>
+              </figure>
+          </li>
+          <li class="shadow-lg" id="launch">
+            <h3>Launch:</h3>
+              <figure>
+                <img src="C:\Users\adem_\OneDrive\Images\luffy_gear_5_by_ranshiiki_dg4uvgs-414w-2x.jpg" id="launch image" width="125px" height="125px">
+                <figcaption id="launch cap">test</figcaption>
+              </figure>
+          </li>
+          <li class="shadow-lg" id="dinner">
+            <h3>Dinner:</h3>
+              <figure>
+                <img src="C:\Users\adem_\OneDrive\Images\luffy_gear_5_by_ranshiiki_dg4uvgs-414w-2x.jpg" id="dinner image" width="125px" height="125px">
+                <figcaption id="dinner cap">test</figcaption>
+              </figure>
+          </li>
+        </ul>
+      </div>
+      <center><hr width="90%"></center>
+    </div>
+    
+    <footer class="py-5 text-light" style="background-color: rgb(36, 30, 42);">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3 me-5 ms-5">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-light">Home</a></li>
+            <li class="nav-item mb-2"><a href="workout.html" class="nav-link p-0 text-light">Workout</a></li>
+            <li class="nav-item mb-2"><a href="nutrition.html" class="nav-link p-0 text-light">Nutrition</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2023 Fit Life Journey, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

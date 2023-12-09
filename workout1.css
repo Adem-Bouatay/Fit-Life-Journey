@@ -1,0 +1,141 @@
+.titreex{
+    
+    position: absolute;
+    top: 1700px;
+    color: rgb(9, 9, 9);
+    left: 70px;
+}
+.exercices1{
+    
+    position: absolute;
+    top: 1800px;
+    left: 70px;
+    right: 70px;
+    height: 600px;
+}
+.EX1{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.PEX1{
+    font-family: Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 60px;
+}
+.EX2{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    border-radius: 30px;
+}
+.PEX2{
+    font-family:Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 600px;
+}
+.EX3{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    border-radius: 30px;
+}
+.PEX3{
+    font-family:Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    right: 150px;
+}
+.exercices2{
+    
+    position: absolute;
+    top: 2200px;
+    left: 70px;
+    right: 70px;
+    height: 600px;
+}
+.EX4{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.PEX4{
+    font-family: Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 60px;
+}
+.EX5{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    border-radius: 30px;
+}
+.PEX5{
+    font-family:Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 600px;
+}
+.EX6{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    border-radius: 30px;
+}  
+.PEX6{
+    font-family:Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    right: 150px;
+}
+.exercices3{
+    
+    position: absolute;
+    top: 2600px;
+    left: 350px;
+    right: 70px;
+    height: 600px;
+}
+.EX7{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.PEX7{
+    font-family: Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 60px;  
+}
+.EX8{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    border-radius: 30px;
+}
+.PEX8{
+    font-family:Audiowide ;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    left: 600px;
+}
+
