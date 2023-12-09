@@ -1,0 +1,37 @@
+.navbar{
+    
+    background-color: #19283f ;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+body{
+    height: 10000px;
+}
+.nav-link:active{
+    color: green;
+}
+.nav-link:focus{
+    color: green;
+}
+.search{
+    color: white;
+}
+.landing{
+    background-color: #19283f ;
+    height: 400px;
+    
+    
+    
+    
+}
+.aa{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
